@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T08:45:24+00:00",
+  "generated_at": "2026-10-08T08:50:47+00:00",
   "lane_membership": {
     "x402": [
       "x402-foundation/x402",
@@ -17,17 +17,17 @@
   },
   "sources": {
     "btc": "mempool.space historical-price + CoinGecko simple/market_chart",
-    "lightning": "mempool.space lightning/statistics x4 unioned, deduped -> 764 unique readings; 18 month(s) covered by monthly median",
+    "lightning": "mempool.space lightning/statistics x4 unioned, deduped -> 845 unique readings; 20 month(s) covered by monthly median",
     "github": "api.github.com (authenticated)",
     "ecosystem": "api.github.com search/repositories (q='<lane> in:name')",
-    "carry_forward": "78 value(s) carried from the previous run"
+    "carry_forward": "159 value(s) carried from the previous run"
   },
   "months": {
     "2024-10": {
       "btc_close_usd": 70372.0,
-      "ln_capacity_sats": 526636537779,
-      "ln_channels": 47105,
-      "ln_nodes": 14016,
+      "ln_capacity_sats": 526346610554,
+      "ln_channels": 47596,
+      "ln_nodes": 14108,
       "ln_samples": 31,
       "ln_asof": "2024-10-31",
       "ln_note": "mempool.space monthly median over unioned sample set; public graph only",
@@ -60,9 +60,9 @@
     },
     "2024-11": {
       "btc_close_usd": 96520.0,
-      "ln_capacity_sats": 526197960877,
-      "ln_channels": 46259,
-      "ln_nodes": 13639,
+      "ln_capacity_sats": 526350582643,
+      "ln_channels": 46348,
+      "ln_nodes": 13630,
       "ln_samples": 30,
       "ln_asof": "2024-11-30",
       "ln_note": "mempool.space monthly median over unioned sample set; public graph only",
@@ -124,6 +124,12 @@
     },
     "2025-01": {
       "btc_close_usd": 102239.0,
+      "ln_capacity_sats": 515817766061,
+      "ln_channels": 44104,
+      "ln_nodes": 13372,
+      "ln_samples": 12,
+      "ln_asof": "2025-01-31",
+      "ln_note": "mempool.space monthly median over unioned sample set; public graph only",
       "commits_hist": {
         "x402-foundation/x402": 0,
         "coinbase/agentkit": 63,
@@ -153,6 +159,12 @@
     },
     "2025-02": {
       "btc_close_usd": 84091.0,
+      "ln_capacity_sats": 501566735470,
+      "ln_channels": 44237,
+      "ln_nodes": 13372,
+      "ln_samples": 28,
+      "ln_asof": "2025-02-28",
+      "ln_note": "mempool.space monthly median over unioned sample set; public graph only",
       "commits_hist": {
         "x402-foundation/x402": 47,
         "coinbase/agentkit": 121,
@@ -182,6 +194,12 @@
     },
     "2025-03": {
       "btc_close_usd": 82381.0,
+      "ln_capacity_sats": 457519257015,
+      "ln_channels": 42143,
+      "ln_nodes": 13289,
+      "ln_samples": 31,
+      "ln_asof": "2025-03-31",
+      "ln_note": "mempool.space monthly median over unioned sample set; public graph only",
       "commits_hist": {
         "x402-foundation/x402": 5,
         "coinbase/agentkit": 96,
@@ -211,10 +229,10 @@
     },
     "2025-04": {
       "btc_close_usd": 94122.0,
-      "ln_capacity_sats": 428451929364,
-      "ln_channels": 41103,
-      "ln_nodes": 13112,
-      "ln_samples": 13,
+      "ln_capacity_sats": 434543623161,
+      "ln_channels": 39333,
+      "ln_nodes": 12279,
+      "ln_samples": 30,
       "ln_asof": "2025-04-30",
       "ln_note": "mempool.space monthly median over unioned sample set; public graph only",
       "commits_hist": {
@@ -246,9 +264,9 @@
     },
     "2025-05": {
       "btc_close_usd": 104680.0,
-      "ln_capacity_sats": 430482663813,
-      "ln_channels": 40833,
-      "ln_nodes": 13094,
+      "ln_capacity_sats": 429471700964,
+      "ln_channels": 40769,
+      "ln_nodes": 13071,
       "ln_samples": 31,
       "ln_asof": "2025-05-31",
       "ln_note": "mempool.space monthly median over unioned sample set; public graph only",
@@ -281,9 +299,9 @@
     },
     "2025-06": {
       "btc_close_usd": 107167.0,
-      "ln_capacity_sats": 418228030001,
-      "ln_channels": 40994,
-      "ln_nodes": 12895,
+      "ln_capacity_sats": 418019942793,
+      "ln_channels": 40907,
+      "ln_nodes": 12651,
       "ln_samples": 30,
       "ln_asof": "2025-06-30",
       "ln_note": "mempool.space monthly median over unioned sample set; public graph only",
@@ -315,10 +333,10 @@
       "l402_active_share_pct": 25.0
     },
     "2025-07": {
-      "btc_close_usd": 116050.0,
-      "ln_capacity_sats": 377907428682,
-      "ln_channels": 41075,
-      "ln_nodes": 13027,
+      "btc_close_usd": 116072.0,
+      "ln_capacity_sats": 377389757101,
+      "ln_channels": 40872,
+      "ln_nodes": 12583,
       "ln_samples": 31,
       "ln_asof": "2025-07-31",
       "ln_note": "mempool.space monthly median over unioned sample set; public graph only",
@@ -351,9 +369,9 @@
     },
     "2025-08": {
       "btc_close_usd": 108897.0,
-      "ln_capacity_sats": 378887712300,
-      "ln_channels": 41540,
-      "ln_nodes": 13489,
+      "ln_capacity_sats": 376954721576,
+      "ln_channels": 41300,
+      "ln_nodes": 13267,
       "ln_samples": 31,
       "ln_asof": "2025-08-31",
       "ln_note": "mempool.space monthly median over unioned sample set; public graph only",
@@ -386,9 +404,9 @@
     },
     "2025-09": {
       "btc_close_usd": 113962.0,
-      "ln_capacity_sats": 397355275800,
-      "ln_channels": 41543,
-      "ln_nodes": 13732,
+      "ln_capacity_sats": 395144205695,
+      "ln_channels": 41024,
+      "ln_nodes": 13665,
       "ln_samples": 30,
       "ln_asof": "2025-09-30",
       "ln_note": "mempool.space monthly median over unioned sample set; public graph only",
@@ -421,9 +439,9 @@
     },
     "2025-10": {
       "btc_close_usd": 109529.0,
-      "ln_capacity_sats": 411001192862,
-      "ln_channels": 41974,
-      "ln_nodes": 13957,
+      "ln_capacity_sats": 402147070933,
+      "ln_channels": 41787,
+      "ln_nodes": 13895,
       "ln_samples": 31,
       "ln_asof": "2025-10-31",
       "ln_note": "mempool.space monthly median over unioned sample set; public graph only",
@@ -456,9 +474,9 @@
     },
     "2025-11": {
       "btc_close_usd": 91261.0,
-      "ln_capacity_sats": 481026264684,
-      "ln_channels": 42050,
-      "ln_nodes": 13861,
+      "ln_capacity_sats": 479203989025,
+      "ln_channels": 41910,
+      "ln_nodes": 13791,
       "ln_samples": 30,
       "ln_asof": "2025-11-30",
       "ln_note": "mempool.space monthly median over unioned sample set; public graph only",
@@ -491,10 +509,10 @@
     },
     "2025-12": {
       "btc_close_usd": 87584.0,
-      "ln_capacity_sats": 573314676014,
-      "ln_channels": 42055,
-      "ln_nodes": 13838,
-      "ln_samples": 9,
+      "ln_capacity_sats": 552111409267,
+      "ln_channels": 42011,
+      "ln_nodes": 13817,
+      "ln_samples": 31,
       "ln_asof": "2025-12-31",
       "ln_note": "mempool.space monthly median over unioned sample set; public graph only",
       "commits_hist": {
@@ -526,11 +544,11 @@
     },
     "2026-01": {
       "btc_close_usd": 78051.0,
-      "ln_capacity_sats": 549622657179,
-      "ln_channels": 41351,
-      "ln_nodes": 13804,
-      "ln_samples": 31,
-      "ln_asof": "2026-01-31",
+      "ln_capacity_sats": 570626090058,
+      "ln_channels": 41921,
+      "ln_nodes": 13789,
+      "ln_samples": 9,
+      "ln_asof": "2026-01-09",
       "ln_note": "mempool.space monthly median over unioned sample set; public graph only",
       "commits_hist": {
         "x402-foundation/x402": 95,
@@ -561,12 +579,6 @@
     },
     "2026-02": {
       "btc_close_usd": 67114.0,
-      "ln_capacity_sats": 529207315890,
-      "ln_channels": 41172,
-      "ln_nodes": 13767,
-      "ln_samples": 3,
-      "ln_asof": "2026-02-03",
-      "ln_note": "mempool.space monthly median over unioned sample set; public graph only",
       "commits_hist": {
         "x402-foundation/x402": 128,
         "coinbase/agentkit": 5,
@@ -587,6 +599,12 @@
         "lightninglabs/wavelength": 0,
         "lightninglabs/lnget": 0
       },
+      "ln_capacity_sats": 529207315890,
+      "ln_channels": 41172,
+      "ln_nodes": 13767,
+      "ln_samples": 3,
+      "ln_asof": "2026-02-03",
+      "ln_note": "mempool.space monthly median over unioned sample set; public graph only",
       "x402_commits_month": 134,
       "l402_commits_month": 203,
       "l402_commit_share_pct": 60.24,
@@ -624,7 +642,7 @@
       "l402_active_share_pct": 66.67
     },
     "2026-04": {
-      "btc_close_usd": 76229.0,
+      "btc_close_usd": 76226.0,
       "commits_hist": {
         "x402-foundation/x402": 67,
         "coinbase/agentkit": 0,
@@ -654,11 +672,11 @@
     },
     "2026-05": {
       "btc_close_usd": 73853.0,
-      "ln_capacity_sats": 489157542141,
-      "ln_channels": 41350,
-      "ln_nodes": 13691,
-      "ln_samples": 11,
-      "ln_asof": "2026-05-29",
+      "ln_capacity_sats": 487087082041,
+      "ln_channels": 41199,
+      "ln_nodes": 13636,
+      "ln_samples": 6,
+      "ln_asof": "2026-05-31",
       "ln_note": "mempool.space monthly median over unioned sample set; public graph only",
       "commits_hist": {
         "x402-foundation/x402": 115,
@@ -688,11 +706,11 @@
       "l402_active_share_pct": 33.33
     },
     "2026-06": {
-      "btc_close_usd": 58524.0,
-      "ln_capacity_sats": 486938317900,
-      "ln_channels": 41058,
-      "ln_nodes": 13658,
-      "ln_samples": 4,
+      "btc_close_usd": 58529.0,
+      "ln_capacity_sats": 487274870276,
+      "ln_channels": 41284,
+      "ln_nodes": 13646,
+      "ln_samples": 5,
       "ln_asof": "2026-06-11",
       "ln_note": "mempool.space monthly median over unioned sample set; public graph only",
       "commits_hist": {
@@ -793,7 +811,7 @@
       "l402_active_share_pct": 50.0
     },
     "2026-09": {
-      "btc_close_usd": 83628.0,
+      "btc_close_usd": 83633.0,
       "commits_hist": {
         "x402-foundation/x402": 102,
         "coinbase/agentkit": 2,
@@ -823,8 +841,8 @@
     },
     "2026-10": {
       "btc_close_usd": 82952.0,
-      "btc_spot_usd": 82747.0,
-      "btc_chg_30d_pct": 4.64,
+      "btc_spot_usd": 82877.0,
+      "btc_chg_30d_pct": 4.78,
       "ln_capacity_sats": 374689550435,
       "ln_channels": 31097,
       "ln_nodes": 12440,
