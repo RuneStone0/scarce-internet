@@ -1,0 +1,27 @@
+{
+  "entries": [
+    {
+      "month": "2026-11",
+      "added_at": "2026-11-02T13:05:02+00:00",
+      "note": "x402 added sellers, not volume: a third-party tracker counts 1,200 listed services (+419 in 30 days) and 5.9M settlements/$2.4M in 30 days, yet an October report finds 91 businesses earning over $100 (+13) on $793k organic volume, down 32%. The x402 Foundation named an executive director Oct 1, citing 50+ members (40 in July) — governance, not adoption. No non-vendor L402 endpoint surfaced; Lightning Labs shipped Wavelength v0.2.0 (vendor).",
+      "sources": [
+        {
+          "title": "State of x402 — directory statistics (as of 2026-11-02)",
+          "url": "https://x402-list.com/state-of-x402"
+        },
+        {
+          "title": "State of x402 — October 2026 report",
+          "url": "https://x402stats.io/reports/2026-10"
+        },
+        {
+          "title": "Linux Foundation appoints Michael Hursta as Executive Director of the x402 Foundation",
+          "url": "https://x402.org/linux-foundation-appoints-michael-hursta-as-executive-director-of-the-x402-foundation/"
+        },
+        {
+          "title": "wavelength v0.2.0 release notes",
+          "url": "https://github.com/lightninglabs/wavelength/releases/tag/v0.2.0"
+        }
+      ]
+    }
+  ]
+}
